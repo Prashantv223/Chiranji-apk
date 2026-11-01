@@ -1,3 +1,4 @@
+
 package com.example
 
 import android.content.Context
@@ -7,10 +8,11 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
-ignore 
 @RunWith(RobolectricTestRunner::class)
-@Config(sdk = [36])
+@Config(sdk = [33]) // या [34]
 class ExampleRobolectricTest {
+    // ...
+
 
   @Test
   fun `read string from context`() {
